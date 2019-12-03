@@ -1,0 +1,25 @@
+html {
+    font-size: 100%;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 1rem;
+}
+
+#answers {
+    height: 300px;
+    overflow-y: auto;
+}
+
+.answer {
+    color: red;
+}
+
+footer {
+    margin-top: auto;
+}
+
